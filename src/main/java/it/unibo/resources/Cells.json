@@ -1,0 +1,578 @@
+{
+    "cells":[
+        {
+            "id": -1,
+            "name": "jail",
+            "category": "effect",
+            "type": "jail" 
+        },
+        {
+            "id": 0,
+            "name": "Start!",
+            "category": "effect",
+            "type": "start"
+        },
+        {
+            "id": 1,
+            "name": "brown1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "brown",
+            "acquisition_price": 60,
+            "rent_prices": {
+                "base": 2,
+                "full_set": 4,
+                "houses": [10, 30, 90, 160],
+                "hotel": 250
+            },
+            "building_price": 50,
+            "mortgage": {
+                "value": 30,
+                "redemption_cost": 33
+            }
+        },
+        {
+            "id": 2,
+            "name": "Probability1",
+            "category": "effect",
+            "type": "random" 
+        },
+        {
+            "id": 3,
+            "name": "brown2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "brown",
+            "acquisition_price": 60,
+            "rent_prices": {
+                "base": 4,
+                "full_set": 8,
+                "houses": [20, 60, 180, 320],
+                "hotel": 450
+            },
+            "building_price": 50,
+            "mortgage": {
+                "value": 30,
+                "redemption_cost": 33
+            }
+        },
+        {
+            "id": 4,
+            "name": "tax1",
+            "category": "effect",
+            "type": "tax",
+            "value": 200 
+        },
+        {
+            "id": 5,
+            "name": "station1",
+            "category": "property",
+            "type": "station",
+            "colour_group": "white",
+            "acquisition_price": 200,
+            "rent_prices": [25, 50, 100, 200],
+            "mortgage": {
+                "value": 100,
+                "redemption_cost": 110
+            }
+        },
+        {
+            "id": 6,
+            "name": "cyan1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "cyan",
+            "acquisition_price": 100,
+            "rent_prices": {
+                "base": 6,
+                "full_set": 12,
+                "houses": [30, 90, 270, 400],
+                "hotel": 550
+            },
+            "building_price": 50,
+            "mortgage": {
+                "value": 50,
+                "redemption_cost": 55
+            }
+        },
+        {
+            "id": 7,
+            "name": "chance1",
+            "category": "effect",
+            "type": "random" 
+        },
+        {
+            "id": 8,
+            "name": "cyan2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "cyan",
+            "acquisition_price": 100,
+            "rent_prices": {
+                "base": 6,
+                "full_set": 12,
+                "houses": [30, 90, 270, 400],
+                "hotel": 550
+            },
+            "building_price": 50,
+            "mortgage": {
+                "value": 50,
+                "redemption_cost": 55
+            }
+        },
+        {
+            "id": 9,
+            "name": "cyan3",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "cyan",
+            "acquisition_price": 120,
+            "rent_prices": {
+                "base": 8,
+                "full_set": 16,
+                "houses": [40, 100, 300, 450],
+                "hotel": 600
+            },
+            "building_price": 50,
+            "mortgage": {
+                "value": 60,
+                "redemption_cost": 66
+            }
+        },
+        {
+            "id": 10,
+            "name": "transit",
+            "category": "effect",
+            "type": "transit" 
+        },
+        {
+            "id": 11,
+            "name": "magenta1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "magenta",
+            "acquisition_price": 140,
+            "rent_prices": {
+                "base": 10,
+                "full_set": 20,
+                "houses": [50, 150, 450, 625],
+                "hotel": 750
+            },
+            "building_price": 100,
+            "mortgage": {
+                "value": 70,
+                "redemption_cost": 77
+            }
+        },
+        {
+            "id": 12,
+            "name": "company1",
+            "category": "property",
+            "type": "company",
+            "colour_group": "black",
+            "acquisition_price": 150,
+            "mortgage": {
+                "value": 75,
+                "redemption_cost": 83
+            }
+        },
+        {
+            "id": 13,
+            "name": "magenta2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "magenta",
+            "acquisition_price": 140,
+            "rent_prices": {
+                "base": 10,
+                "full_set": 20,
+                "houses": [50, 150, 450, 625],
+                "hotel": 750
+            },
+            "building_price": 100,
+            "mortgage": {
+                "value": 70,
+                "redemption_cost": 77
+            }
+        },
+        {
+            "id": 14,
+            "name": "magenta3",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "magenta",
+            "acquisition_price": 160,
+            "rent_prices": {
+                "base": 12,
+                "full_set": 24,
+                "houses": [60, 180, 500, 700],
+                "hotel": 900
+            },
+            "building_price": 100,
+            "mortgage": {
+                "value": 80,
+                "redemption_cost": 88
+            }
+        },
+        {
+            "id": 15,
+            "name": "station2",
+            "category": "property",
+            "type": "station",
+            "colour_group": "white",
+            "acquisition_price": 200,
+            "rent_prices": [25, 50, 100, 200],
+            "mortgage": {
+                "value": 100,
+                "redemption_cost": 110
+            }
+        },
+        {
+            "id": 16,
+            "name": "orange1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "orange",
+            "acquisition_price": 180,
+            "rent_prices": {
+                "base": 14,
+                "full_set": 28,
+                "houses": [70, 200, 550, 750],
+                "hotel": 950
+            },
+            "building_price": 100,
+            "mortgage": {
+                "value": 90,
+                "redemption_cost": 99
+            }
+        },
+        {
+            "id": 17,
+            "name": "Probability2",
+            "category": "effect",
+            "type": "random" 
+        },
+        {
+            "id": 18,
+            "name": "orange2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "orange",
+            "acquisition_price": 180,
+            "rent_prices": {
+                "base": 14,
+                "full_set": 28,
+                "houses": [70, 200, 550, 750],
+                "hotel": 950
+            },
+            "building_price": 100,
+            "mortgage": {
+                "value": 90,
+                "redemption_cost": 99
+            }
+        },
+        {
+            "id": 19,
+            "name": "orange3",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "orange",
+            "acquisition_price": 200,
+            "rent_prices": {
+                "base": 16,
+                "full_set": 32,
+                "houses": [80, 220, 600, 800],
+                "hotel": 1000
+            },
+            "building_price": 100,
+            "mortgage": {
+                "value": 100,
+                "redemption_cost": 110
+            }
+        },
+        {
+            "id": 20,
+            "name": "park",
+            "category": "effect",
+            "type": "transit" 
+        },
+        {
+            "id": 21,
+            "name": "red1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "red",
+            "acquisition_price": 220,
+            "rent_prices": {
+                "base": 18,
+                "full_set": 36,
+                "houses": [90, 250, 700, 875],
+                "hotel": 1050
+            },
+            "building_price": 150,
+            "mortgage": {
+                "value": 110,
+                "redemption_cost": 121
+            }
+        },
+        {
+            "id": 22,
+            "name": "chance2",
+            "category": "effect",
+            "type": "random" 
+        },
+        {
+            "id": 23,
+            "name": "red2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "red",
+            "acquisition_price": 220,
+            "rent_prices": {
+                "base": 18,
+                "full_set": 36,
+                "houses": [90, 250, 700, 875],
+                "hotel": 1050
+            },
+            "building_price": 150,
+            "mortgage": {
+                "value": 110,
+                "redemption_cost": 121
+            }
+        },
+        {
+            "id": 24,
+            "name": "red3",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "red",
+            "acquisition_price": 240,
+            "rent_prices": {
+                "base": 20,
+                "full_set": 40,
+                "houses": [100, 300, 750, 925],
+                "hotel": 1100
+            },
+            "building_price": 150,
+            "mortgage": {
+                "value": 120,
+                "redemption_cost": 132
+            }
+        },
+        {
+            "id": 25,
+            "name": "station1",
+            "category": "property",
+            "type": "station",
+            "colour_group": "white",
+            "acquisition_price": 200,
+            "rent_prices": [25, 50, 100, 200],
+            "mortgage": {
+                "value": 100,
+                "redemption_cost": 110
+            }
+        },
+        {
+            "id": 26,
+            "name": "yellow1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "yellow",
+            "acquisition_price": 260,
+            "rent_prices": {
+                "base": 22,
+                "full_set": 44,
+                "houses": [110, 330, 800, 975],
+                "hotel": 1150
+            },
+            "building_price": 150,
+            "mortgage": {
+                "value": 130,
+                "redemption_cost": 143
+            }
+        },
+        {
+            "id": 27,
+            "name": "yellow2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "yellow",
+            "acquisition_price": 260,
+            "rent_prices": {
+                "base": 22,
+                "full_set": 44,
+                "houses": [110, 330, 800, 975],
+                "hotel": 1150
+            },
+            "building_price": 150,
+            "mortgage": {
+                "value": 130,
+                "redemption_cost": 143
+            }
+        },
+        {
+            "id": 28,
+            "name": "company2",
+            "category": "property",
+            "type": "company",
+            "colour_group": "black",
+            "acquisition_price": 150,
+            "mortgage": {
+                "value": 75,
+                "redemption_cost": 83
+            }
+        },
+        {
+            "id": 29,
+            "name": "yellow3",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "yellow",
+            "acquisition_price": 280,
+            "rent_prices": {
+                "base": 24,
+                "full_set": 48,
+                "houses": [120, 360, 850, 1025],
+                "hotel": 1200
+            },
+            "building_price": 150,
+            "mortgage": {
+                "value": 140,
+                "redemption_cost": 154
+            }
+        },
+        {
+            "id": 30,
+            "name": "police",
+            "category": "effect",
+            "type": "police" 
+        },
+        {
+            "id": 31,
+            "name": "green1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "green",
+            "acquisition_price": 300,
+            "rent_prices": {
+                "base": 26,
+                "full_set": 52,
+                "houses": [130, 390, 900, 1100],
+                "hotel": 1275
+            },
+            "building_price": 200,
+            "mortgage": {
+                "value": 150,
+                "redemption_cost": 165
+            }
+        },
+        {
+            "id": 32,
+            "name": "green2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "green",
+            "acquisition_price": 300,
+            "rent_prices": {
+                "base": 26,
+                "full_set": 52,
+                "houses": [130, 390, 900, 1100],
+                "hotel": 1275
+            },
+            "building_price": 200,
+            "mortgage": {
+                "value": 150,
+                "redemption_cost": 165
+            }
+        },
+        {
+            "id": 33,
+            "name": "Probability3",
+            "category": "effect",
+            "type": "random" 
+        },
+        {
+            "id": 34,
+            "name": "green3",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "green",
+            "acquisition_price": 320,
+            "rent_prices": {
+                "base": 28,
+                "full_set": 56,
+                "houses": [150, 450, 1000, 1200],
+                "hotel": 1400
+            },
+            "building_price": 200,
+            "mortgage": {
+                "value": 160,
+                "redemption_cost": 176
+            }
+        },
+        {
+            "id": 35,
+            "name": "station4",
+            "category": "property",
+            "type": "station",
+            "colour_group": "white",
+            "acquisition_price": 200,
+            "rent_prices": [25, 50, 100, 200],
+            "mortgage": {
+                "value": 100,
+                "redemption_cost": 110
+            }
+        },
+        {
+            "id": 36,
+            "name": "chance3",
+            "category": "effect",
+            "type": "random" 
+        },
+        {
+            "id": 37,
+            "name": "blue1",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "blue",
+            "acquisition_price": 350,
+            "rent_prices": {
+                "base": 35,
+                "full_set": 70,
+                "houses": [175, 500, 1100, 1300],
+                "hotel": 1500
+            },
+            "building_price": 200,
+            "mortgage": {
+                "value": 175,
+                "redemption_cost": 193
+            }
+        },
+        {
+            "id": 38,
+            "name": "tax2",
+            "category": "effect",
+            "type": "tax",
+            "value": 100 
+        },
+        {
+            "id": 39,
+            "name": "blue2",
+            "category": "property",
+            "type": "terrain",
+            "colour_group": "blue",
+            "acquisition_price": 400,
+            "rent_prices": {
+                "base": 50,
+                "full_set": 100,
+                "houses": [200, 600, 1400, 1700],
+                "hotel": 2000
+            },
+            "building_price": 200,
+            "mortgage": {
+                "value": 200,
+                "redemption_cost": 220
+            }
+        }
+    ]
+}
